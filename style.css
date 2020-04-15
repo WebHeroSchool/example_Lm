@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    padding-top: 250px;
+    box-sizing: border-box;
+    height: 100vh;
+    background: url(./photo-15.jpg);
+    background-color: rgba(0, 0, 0, .2);
+    background-size: cover;
+}
+.description, .title {
+    font-family: sans-serif, arial;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.botton {
+    display: block;
+    width: 150px;
+    font-family: sans-serif, arial;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    border: 2px solid;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.botton:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #000;
+    transition-duration: 0.4s;
+   
+}
